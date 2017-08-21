@@ -1,3 +1,0 @@
-{
-  "presets": [['babel-preset-2017', {"modules": false }]]
-}
