@@ -1,7 +1,10 @@
 import { getAvail } from '../ota/rentals';
+const test = require('./common-js-import');
 
 (function() {
   ('use strict');
+  test();
+  
   const search = {
     pickup: {
       datetime: new Date()
